@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from huggingface_hub import login
 from transformers import pipeline
 import torch
-from diffusers import StableDiffusionPipeline
 
 load_dotenv("../Aliens_force/keys.env")
 HF=os.getenv("HF_TOKEN")
